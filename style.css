@@ -1,0 +1,91 @@
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+    font-family: sans-serif;
+    background-color: #f6f6f6;
+    }
+
+    .header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .header__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+
+    .header__nav .header__link {
+    margin-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .main {
+    padding: 2rem;
+    }
+
+    .productos__titulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    }
+
+    .productos__lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    }
+
+    .producto {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    }
+
+    .producto__imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    }
+
+    .producto__nombre {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    }
+
+    .producto__precio {
+    margin: 0.5rem 0;
+    color: green;
+    font-weight: bold;
+    }
+
+    .producto__boton {
+    background-color: orange;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ddd;
+    margin-top: 3rem;
+    }
+
+    .footer__texto {
+    color: #333;
+    }
