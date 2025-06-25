@@ -1,91 +1,91 @@
-    * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    }
+* {
+    box-sizing: border-box; /* Incluye padding y border dentro del ancho y alto total */
+    margin: 0;              /* Elimina márgenes por defecto de todos los elementos */
+    padding: 0;             /* Elimina relleno por defecto de todos los elementos */
+}
 
-    body {
-    font-family: sans-serif;
-    background-color: #f6f6f6;
-    }
+body {
+    font-family: sans-serif; /* Define la tipografía general de la página */
+    background-color: #f6f6f6; /* Color de fondo claro para toda la página */
+}
 
-    .header {
-    background-color: #222;
-    color: #fff;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
+.header {
+    background-color: #222; /* Fondo oscuro para el encabezado */
+    color: #fff;            /* Texto blanco para contraste */
+    padding: 1rem 2rem;     /* Espaciado interno arriba-abajo y lados */
+    display: flex;          /* Usa flexbox para layout flexible */
+    justify-content: space-between; /* Separa elementos al máximo en el eje horizontal */
+    align-items: center;    /* Centra verticalmente los elementos dentro del header */
+}
 
-    .header__logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    }
+.header__logo {
+    font-size: 1.5rem;      /* Tamaño de fuente grande para el logo */
+    font-weight: bold;      /* Texto en negrita para destacar */
+}
 
-    .header__nav .header__link {
-    margin-left: 1rem;
-    color: #fff;
-    text-decoration: none;
-    }
+.header__nav .header__link {
+    margin-left: 1rem;      /* Separación a la izquierda entre enlaces del menú */
+    color: #fff;            /* Color blanco para los enlaces */
+    text-decoration: none;  /* Sin subrayado en los enlaces */
+}
 
-    .main {
-    padding: 2rem;
-    }
+.main {
+    padding: 2rem;          /* Espacio interno alrededor del contenido principal */
+}
 
-    .productos__titulo {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    }
+.productos__titulo {
+    text-align: center;     /* Centra el texto del título */
+    font-size: 2rem;        /* Tamaño grande para destacar el título */
+    margin-bottom: 2rem;    /* Espacio debajo del título */
+}
 
-    .productos__lista {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    }
+.productos__lista {
+    display: grid;          /* Usa grid para organizar los productos */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Columnas adaptables con mínimo 250px */
+    gap: 2rem;              /* Espacio entre filas y columnas */
+}
 
-    .producto {
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: center;
-    }
+.producto {
+    background-color: #fff; /* Fondo blanco para cada producto */
+    padding: 1rem;          /* Espacio interno dentro del producto */
+    border-radius: 8px;     /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera para dar profundidad */
+    text-align: center;     /* Centra el contenido dentro del producto */
+}
 
-    .producto__imagen {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    }
+.producto__imagen {
+    width: 100%;            /* Imagen ocupa todo el ancho del contenedor */
+    height: 200px;          /* Altura fija para uniformidad */
+    object-fit: cover;      /* La imagen se recorta para llenar el área sin deformarse */
+}
 
-    .producto__nombre {
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    }
+.producto__nombre {
+    margin-top: 1rem;       /* Separación arriba del nombre */
+    font-size: 1.2rem;      /* Tamaño de fuente para el nombre del producto */
+}
 
-    .producto__precio {
-    margin: 0.5rem 0;
-    color: green;
-    font-weight: bold;
-    }
+.producto__precio {
+    margin: 0.5rem 0;       /* Margen arriba y abajo para separar del texto */
+    color: green;           /* Color verde para destacar el precio */
+    font-weight: bold;      /* Texto en negrita para resaltar */
+}
 
-    .producto__boton {
-    background-color: orange;
-    border: none;
-    padding: 0.5rem 1rem;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    }
+.producto__boton {
+    background-color: orange; /* Fondo naranja llamativo para el botón */
+    border: none;             /* Sin borde */
+    padding: 0.5rem 1rem;     /* Espaciado interno para tamaño cómodo */
+    color: #fff;              /* Texto blanco para contraste */
+    border-radius: 4px;       /* Bordes ligeramente redondeados */
+    cursor: pointer;          /* Cambia el cursor para indicar que es clickeable */
+}
 
-    .footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #ddd;
-    margin-top: 3rem;
-    }
+.footer {
+    text-align: center;       /* Centra el texto del pie de página */
+    padding: 1rem;            /* Espacio interno */
+    background-color: #ddd;   /* Fondo gris claro para diferenciar del contenido */
+    margin-top: 3rem;         /* Separación arriba para separar del contenido principal */
+}
 
-    .footer__texto {
-    color: #333;
-    }
+.footer__texto {
+    color: #333;              /* Color gris oscuro para el texto del footer */
+}
